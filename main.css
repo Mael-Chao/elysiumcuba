@@ -1,0 +1,128 @@
+.bg-blue {
+    --mask:
+    radial-gradient(34.99px at 50% 48px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
+    radial-gradient(34.99px at 50% -18px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
+    radial-gradient(34.99px at 50% calc(100% - 48px),#000 99%,#0000 101%) calc(50% - 60px) 100%/120px 51% repeat-x,
+    radial-gradient(34.99px at 50% calc(100% + 18px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+  }
+
+.hero {
+        background-image: url('./static/pexels-fauxels-3183197.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+/* Main CSS */
+.grid-wrapper>div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.grid-wrapper>div>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+.grid-wrapper {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+}
+
+.grid-wrapper .wide {
+        grid-column: span 2;
+}
+
+.grid-wrapper .tall {
+        grid-row: span 2;
+}
+
+.grid-wrapper .big {
+        grid-column: span 2;
+        grid-row: span 2;
+}
+
+.hidden {
+        display: none !important;
+}
+.height{
+        height: 700px;
+}      
+.juicer-feed .referral{
+        display: none !important;
+}  
+.feature{
+        transition: background-image 1s ease 10s;
+        color: #0d6efd;
+        cursor: pointer;
+}
+#Estadisticas:hover{
+        background-image: url(./static/pexels-goumbik-577210.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #f8f9fa;        
+}
+#Promocion:hover{
+        background-image: url(./static/1726153999604433531.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #f8f9fa;        
+}
+#Disenno:hover{
+        background-image: url(./static/pexels-knownasovan-57690.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #f8f9fa;        
+}
+#Redessociales:hover{
+        background-image: url(./static/172615399960443351.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #f8f9fa;        
+}
+#Content:hover{
+        background-image: url(./static/pexels-bertellifotografia-2608512.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #f8f9fa;        
+}
+#Clima:hover{
+        background-image: url(./static/1726153999604433511.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #f8f9fa;        
+}
+#Ciber:hover{
+        background-image: url(./static/pexels-cowomen-1058097-20413962.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #f8f9fa;        
+}
+#SEO:hover{
+        background-image: url(./static/pexels-bertellifotografia-260851232.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #f8f9fa;        
+}
+#Soluciones:hover{
+        background-image: url(./static/17261539996044335133.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #f8f9fa;        
+}
